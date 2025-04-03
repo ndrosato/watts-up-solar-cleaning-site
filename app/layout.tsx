@@ -8,7 +8,13 @@ export const metadata: Metadata = {
   description:
     "Boost your solar efficiency with Sydney's most trusted solar panel cleaning service. Certified, insured & results-driven.",
   generator: "v0.dev",
-}
+  icons: {
+    icon: "/favicon.ico",
+  },
+  other: {
+    "google-site-verification": "YOUR_VERIFICATION_CODE",
+},
+};
 
 export default function RootLayout({
   children,
@@ -17,10 +23,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>
-      <link rel="icon" href="/favicon.ico" type="image/x-icon" />
-        <meta name="google-site-verification" content="YOUR_VERIFICATION_CODE" />
-      </head>
       <body>
         <ScrollToTop />
         {children}
@@ -28,7 +30,3 @@ export default function RootLayout({
     </html>
   )
 }
-
-
-
-import './globals.css'
