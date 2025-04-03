@@ -1,1 +1,0 @@
-# watts-up-solar-cleaning-site
